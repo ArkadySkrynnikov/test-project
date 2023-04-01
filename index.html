@@ -61,16 +61,14 @@
                 <div class="container copmleted-container">
                     <div class="completed-flex-container">
                         <div class="mobi_completed">
-                            <div>
+                            <div class="slider__titles">
                                 <ul class="completed-nav">
-                                    <li class="completed-nav__item"><a class="completed-link completed-link-active" href="#">rostov-on-don, admiral</a></li>
-                                    <li class="completed-nav__item"><a class="completed-link_grey" href="#">sochi thieves</a></li>
-                                    <li class="completed-nav__item"><a class="completed-link_grey" href="#">rostov-on-don patriotic</a></li>
+                                    <li class="slider__titles-item completed-nav__item" data-index="0"><a class="completed-link_grey">rostov-on-don, admiral</a></li>
+                                    <li class="slider__titles-item completed-nav__item" data-index="1"><a class="completed-link_grey">sochi thieves</a></li>
+                                    <li class="slider__titles-item completed-nav__item" data-index="2"><a class="completed-link_grey">rostov-on-don patriotic</a></li>
                                 </ul>
                             </div>
-                            <div>
-                                <img src="images/second-completed.jpg">
-                            </div>
+                            <div class="slider__images"></div>
                         </div>
                         <div class="random">
                             <div class="completed-title_position">
@@ -91,23 +89,23 @@
                             <div class="city_apartment">
                                 <div class="city">
                                     <h3 class="completed-h3">city:</h3>
-                                    <span class="completed-subtitle">
-                                        Rostov-on-Don<br>LCD admiral
-                                    </span>
+                                    <div class="city__slider completed-subtitle">
+                                        Rostov-on-Don LCD admiral 
+                                    </div>
                                 </div>
                                 <div>
                                     <h3 class="completed-h3">apartment area:</h3>
-                                    <span class="completed-subtitle">
-                                        81 m2
-                                    </span>
+                                    <div class="area__slider completed-subtitle">
+                                        81m2
+                                    </div>
                                 </div>
                             </div>
                             <div class="time_cost">
                                 <div class="time">
                                     <h3 class="completed-h3">repair time:</h3>
-                                    <span class="completed-subtitle">
-                                        3.5 months
-                                    </span>
+                                    <div class="time__slider completed-subtitle">
+                                        3,5 months
+                                    </div>
                                 </div>
                                 <div>
                                     <h3 class="completed-h3">repair cost:</h3>
@@ -116,14 +114,14 @@
                                     </span>
                                 </div>
                             </div>
-                            <div class="scroll-row">
-                                <div class="scroll-left">
+                            <div class="scroll-row slider__arrows">
+                                <div class="scroll-left left slider__arrow">
                                     <img src="images/left-completed.svg">
                                 </div>
-                                <div>
-                                    <img src="images/dots-completed.svg">
+                                <div class="slider__dots">
+
                                 </div>
-                                <div class="scroll-right">
+                                <div class="scroll-right right slider__arrow">
                                     <img src="images/right-completed.svg">
                                 </div>
                             </div>  
@@ -543,5 +541,6 @@
             </button>
         </div>
     </footer>
+    <script src="/test-project/test-project/js/slider.js"></script>
 </body>
 </html>
